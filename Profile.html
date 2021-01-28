@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link rel="icon" type="text/css" href="user.svg"/>
+	<style>
+		.parent{
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			width: 90%;
+			justify-content: center;
+			flex-direction: row;
+		}
+		.child1{
+			border: 1px solid #000;
+			padding: 1%;
+			margin: 1%;
+			width:15%;
+			background: #000;
+			justify-content: space-between;
+			font-weight: 450;
+			text-align: center;
+		}
+		.child1 img{
+			width:50%;
+			display: block;
+			margin: 0% auto 0% auto;
+
+		}
+		.child2{
+			border: 1px solid #000;
+			padding: 1%;
+			margin: 1%;
+			width:70%;
+			justify-content: space-between;
+			font-weight: 450;
+		}
+		.child{
+			width:100%;
+			border: 1px solid red;
+		}
+		.child2 h2{
+			text-align: center;
+		}
+		.child3{
+			width:100%;
+			border: 1px solid #000;
+		}
+		/*Small Scale Devices*/
+		@media only screen and (min-width: 320px) and (max-width: 480px){
+			.child{
+					width:40%;
+					font-size: 20px;
+				}
+		}
+		/*Medium Scale Devices*/
+		@media only screen and (min-width: 481px) and (max-width: 767px){
+			.child{
+					width:40%;
+					font-size: 20px;
+				}
+		}
+		/*Large Scale Devices*/
+		@media only screen and (min-width: 768px) and (max-width: 1024px){
+			.child{
+					width:40%;
+					font-size: 20px;
+				}
+		}
+	</style>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="
+	width=device-width,initial-scale=1.0">	
+</head>
+<body>
+<section class="parent">
+	<article class="child">
+		<h2 align="center">Profile Information</h2>
+	</article>
+	<article class="child1">
+		<img src="man.svg" alt="user" />
+		<p>Sai</p>
+		<a href="mailto:spkumarsunkari@gmail.com">spkumarsunkari@gmail.com</a>
+	</article>
+	<article class="child2">
+		<h2>Skills</h2>
+		<article class="child3">
+			<ul>
+		<li>Python Programming</li>
+		<li>Machine Learning in Python</li>
+		<li>Java Programming</li>
+		<li>C programming</li>
+		</ul>
+		</article>
+	</article>
+</section>
+</section>
+</body>
+</html>

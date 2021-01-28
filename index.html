@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+	<link rel="icon" type="text/css" href="user.svg"/>
+	<meta name="viewport" content="
+	width=device-width,initial-scale=1.0">
+	<style>
+		.parent{
+				display: flex;
+				align-items: center;
+				flex-wrap: wrap;
+				flex-direction: row;
+				justify-content: center;
+				
+		}
+		.child{
+			border: 1px solid rgb(7,123,167);
+			background: #fff;
+			padding: 1%;
+			margin: 1%;
+			width: 20%;
+			justify-content: space-between;
+		}
+		/* Small Scale Devices */
+		@media only screen and (min-width: 280px) and (max-width: 480px){
+				.child{
+					width:40%;
+					font-size: 20px;
+				}
+		}
+		/* Medium Scale Devices */
+		@media only screen and (min-width: 481px) and (max-width: 767px){
+			.child{
+					width: 20%;
+					font-weight: 400;
+					border: 3px solid #000;
+					border-radius: 10px;
+					box-shadow: 3px 3px 3px red;
+				}
+		}
+		/* Large Scale Devices*/
+		@media only screen and (min-width: 768px) and (max-width: 1024px){
+			.child{
+				widows: 25%;
+				font-weight: 450;
+				box-shadow: 0px 8px 8px -8px #000;
+			}
+		}
+
+	</style>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<section class="parent">
+		<article class="child">LAPTOP</article>
+		<article class="child">MACBOOK</article>
+		<article class="child">KEYPAD</article>
+		<article class="child">IPHONE</article>
+	</section>
+</body>
+</html>

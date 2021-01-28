@@ -1,0 +1,11 @@
+1.Basic selectors
+a)id(#)
+b)class(.)
+c)element(<ELEMENT></ELEMENT>
+d)universal(*)
+2.Relational selectors
+a)descendant combiner(>)
+b)child combiner( )
+c)Adjacent sibling selectors(+)
+d)General Sibling selectors(~)
+3.Pseudo classes
